@@ -1,11 +1,12 @@
 {
   "name": "ramdom-pkg",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "my firts ramdom pkg",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.ts"
+    "start": "nodemon dist/index.ts"
   },
   "keywords": [],
   "author": "",
