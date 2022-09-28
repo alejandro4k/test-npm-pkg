@@ -1,5 +1,5 @@
 console.log("GENERAR ISO DE FECHA ACTUAL")
-const getCurrentDate = ()=>{
+export const getCurrentDate = ()=>{
 
     return new Date().toISOString()
 }
